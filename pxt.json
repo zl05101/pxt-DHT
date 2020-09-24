@@ -1,0 +1,16 @@
+{
+    "name": "pxt-DHT",
+    "version": "0.0.1",
+    "description": "DHT11温湿度传感器",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "dht11_dht22.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
