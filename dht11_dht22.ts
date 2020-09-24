@@ -29,7 +29,8 @@ namespace dht11{
     */
     //% blockId="query_Data" block="温湿度传感器设置类型 $DHT 通讯引脚 $dataPin 开启上拉电阻 $pullUp"
     //% weight=70 blockGap=8
-    //% dataPin.defl=P1
+    //% dataPin.defl=DigitalPin.P1
+	//% pullUp.defl=false
     export function queryData(DHT: DHTtype, dataPin: DigitalPin, pullUp: boolean) {
 
         //initialize
